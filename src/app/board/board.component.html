@@ -1,35 +1,4 @@
 <p>board works!</p>
-<!-- 
-<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-    <div class="carousel-inner">
-        <div *ngFor="let slide of slides">
-            <div class="carousel-item active" data-interval="10000">
-                
-                <div>{{slide}}</div>
-            </div>
-
-        </div>
-
-
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-</div>
- -->
-
-
-<!-- <swiper [config]="config" [(index)]="index" [useSwiperClass]="true">
-    <div> slide 1</div>
-    <div> slide 2 </div>
-    <div> slide 3 </div>
-</swiper> -->
-
 
 <div style="width: 100%; height: 100%;" class="swiper-wrapper">
     <swiper class="swiper-container" [config]="config">
@@ -42,14 +11,15 @@
                         {{slide}}
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">{{slide}}</h5>
-                      <p class="card-text">With supporting text below as a natural lead-in to additional content. {{slide}}</p>
-                      
+                        <h5 class="card-title">{{slide}}</h5>
+                        <p class="card-text">With supporting text below as a natural lead-in to additional content.
+                            {{slide}}</p>
+
                     </div>
                     <div class="card-footer text-muted">
                         {{slide}}
                     </div>
-                  </div>
+                </div>
 
 
             </div>
